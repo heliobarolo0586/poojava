@@ -3,9 +3,10 @@ package br.edu.fatecfranca.ads;
 
 
 public class Produto {
-    public int id ,qtde;
-    public String Descricao;
-    public float preco;
+    int id;
+    int qtde;
+    String Descricao;
+    float preco;
     //Método construtor
     public Produto (){
         

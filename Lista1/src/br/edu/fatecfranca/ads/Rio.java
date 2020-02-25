@@ -2,7 +2,7 @@
 package br.edu.fatecfranca.ads;
 
 public class Rio {
-    
+    // Definindo variaveis
     String nome;
     float nivel;
     boolean poluido;
@@ -29,7 +29,7 @@ public class Rio {
     public void sujar (){
         this.poluido = true;
     }
-    
+    //Metodo para criar msg na tela. \n quebra linha.
     public String mostrar (){
         return "Nome do Rio: " + this.nome +
                 "\n Nível do Rio: " + this.nivel +

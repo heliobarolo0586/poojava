@@ -1,7 +1,5 @@
 package br.edu.fatecfranca.ads;
-/**
- * @author 1090481823025
- */
+
 public class Carro {
     // Variáveis
     private String modelo, marca;
