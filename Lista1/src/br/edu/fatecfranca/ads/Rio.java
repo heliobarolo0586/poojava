@@ -3,12 +3,16 @@ package br.edu.fatecfranca.ads;
 
 public class Rio {
     // Definindo variaveis
-    String nome;
-    float nivel;
-    boolean poluido;
+     private String nome;
+     private float nivel;
+     private boolean poluido;
     
     //Métodos construtores
-    public Rio (){}
+    public Rio (){
+        this.nome = "Ainda não definido";
+        this.nivel = 0;
+        this.poluido = false;
+    }
     public Rio (String nome, float nivel,boolean poluido){
         this.nome = nome;
         this.nivel = nivel;
