@@ -6,30 +6,31 @@ import javax.swing.JOptionPane;
 
 public class TestaCliente {
 
-   
+  
     public static void main(String[] args) {
         //Criando Objetos
-        Cliente cliente01 = new Cliente ();
+        Cliente fulano = new Cliente ();
         
-        cliente01.setNome ("Fulano");
-        cliente01.realizarDeposito(1000);
-        cliente01.realizarSaque(500);
+        fulano.setNome("Tobias");
+        fulano.realizarDeposito(1000);
+        fulano.realizarSaque (500);
         
+        //JOptionPane.showMessageDialog(null,fulano.getNome());
+        JOptionPane.showMessageDialog(null, fulano.toString());
+       
+        Cliente Beltrano = new Cliente ();
         
-        JOptionPane.showMessageDialog(null, cliente01.toString());
+        Beltrano.setNome ("Beltrano");
+        Beltrano.realizarDeposito(10);
+        Beltrano.realizarSaque(500);
         
-        Cliente cliente02 = new Cliente ();
+          // sem o set nao e possivel acessar as variaveis privadas,
+          // e sem o get nao temos como retornar um valor especifico, nos dois casos ocorre erro.
         
-        cliente02.setNome ("Fulanodsasbvdsavdgasvdgvsagdvsagdvga");
-        cliente02.realizarDeposito(10);
-        cliente02.realizarSaque(500);
-        
-          // sem o get e set da erro.
-        
-        JOptionPane.showMessageDialog(null, cliente02.toString());
+        JOptionPane.showMessageDialog(null, Beltrano.toString());
         
         String nmroConta = JOptionPane.showInputDialog("Informe nuemro da conta");
-        String nmroAgencia = JOptionPane.showInputDialog("Informe numero da Aência");
+        String nmroAgencia = JOptionPane.showInputDialog("Informe numero da Agência");
         String nome = JOptionPane.showInputDialog("Informe o nome");
         float saldo = Float.parseFloat(JOptionPane.showInputDialog("Informe o saldo"));
         
