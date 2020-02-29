@@ -3,9 +3,9 @@ package br.edu.fatecfranca.ads;
 
 public class Rio {
     // Definindo variaveis
-    String nome;
-    float nivel;
-    boolean poluido;
+   String nome;
+   float nivel;
+   boolean poluido;
     
     //Métodos construtores
     public Rio (){}
