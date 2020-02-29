@@ -20,9 +20,9 @@ public class TestarRio {
         rio01.chover(200);
 
         // Definindo caracteristicas objeto 02
-        rio02.nome = "Tiete";
-        rio02.nivel = 5000;
-        rio02.poluido = true;
+        //rio02.nome = "Tiete";
+        //rio02.nivel = 5000;
+        //rio02.poluido = true;
         //usando metodos objeto 02
         rio02.ensolarar(3000);
         rio02.chover(2500.50f);

@@ -15,10 +15,10 @@ public class TestaProduto {
         Produto produto01 = new Produto ();
         Produto produto02 = new Produto(id,quan,descricao,preco);
         
-        produto01.id = 32;
-        produto01.Descricao = "Sorvete de Pessego";
-        produto01.preco = 5;
-        produto01.qtde = 50;
+        produto01.setId(32);
+        produto01.setDescricao ("Sorvete de Pessego");
+        produto01.setPreco (5);
+        produto01.setQtde (50);
         
         // usando metodos nos objetos.
         produto01.comprar (20);
