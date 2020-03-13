@@ -14,11 +14,8 @@ public class TestaPassageiro {
         objParte01.setDestino("Marrocos");
         objParte01.setNumero("15337");
 
-        Reserva objTodo = new Reserva();
-        objTodo.setCodigo(12);
-        objTodo.setData(new Date());
-        objTodo.setVoo(objParte01);
-        objTodo.setPassageiro(objParte0);
+        Reserva objTodo = new Reserva(12,new Date(),objParte0,objParte01);
+      
 
         JOptionPane.showMessageDialog(null, objTodo.toString());
 

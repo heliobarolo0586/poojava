@@ -13,24 +13,25 @@ public class Reserva {
     
     }
 
-    public Reserva(int codigo, Date data) {
-        this.setCodigo(codigo);
-        this.setData(data);
+    public Reserva(int codigo, Date data, Passageiro passageiro, Voo voo) {
+        this.codigo = codigo;
+        this.data = data;
+        this.passageiro = passageiro;
+        this.voo = voo;
     }
     
-    //getters
-    public int getCodigo() {
-        return this.codigo;
-    }
+    
 
-    public Date getData() {
-        return this.data;
+    public int getCodigo() {
+        return codigo;
     }
-    
-    //setters
 
     public void setCodigo(int codigo) {
         this.codigo = codigo;
+    }
+
+    public Date getData() {
+        return data;
     }
 
     public void setData(Date data) {
@@ -52,16 +53,12 @@ public class Reserva {
     public void setVoo(Voo voo) {
         this.voo = voo;
     }
-    
-    
 
     @Override
     public String toString() {
-        return "Reserva{" + "\n codigo=" + codigo + "\n data=" + data + '}';
+        return "RESERVA: " + "\n codigo=" + codigo + "\n data=" + data + "\n PASSAGEIRO:" + passageiro + "\n VOO: " + voo;
     }
     
     
-    
-    
-    
+
 }
