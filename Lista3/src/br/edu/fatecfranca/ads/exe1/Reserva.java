@@ -1,11 +1,13 @@
 package br.edu.fatecfranca.ads.exe1;
 
+import java.util.Calendar;
 import java.util.Date;
 
 
 public class Reserva {
     private int codigo;
     private Date data;
+    //assosiações
     private Passageiro passageiro;
     private Voo voo;
   
@@ -18,6 +20,10 @@ public class Reserva {
         this.data = data;
         this.passageiro = passageiro;
         this.voo = voo;
+    }
+
+    Reserva(int i, Calendar c, Passageiro objParte0, Voo objParte01) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     

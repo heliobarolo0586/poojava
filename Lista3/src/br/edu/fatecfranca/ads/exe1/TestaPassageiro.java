@@ -1,5 +1,6 @@
 package br.edu.fatecfranca.ads.exe1;
 
+import java.util.Calendar;
 import java.util.Date;
 import javax.swing.JOptionPane;
 
@@ -13,8 +14,13 @@ public class TestaPassageiro {
         Voo objParte01 = new Voo();
         objParte01.setDestino("Marrocos");
         objParte01.setNumero("15337");
-
-        Reserva objTodo = new Reserva(12,new Date(),objParte0,objParte01);
+        
+        Calendar c = Calendar.getInstance();
+        c.set(Calendar.YEAR, 2018);
+        c.set(Calendar.MONTH, Calendar.APRIL);
+        c.set(Calendar.DAY_OF_MONTH, 29);
+        
+        Reserva objTodo = new Reserva(12,c.getTime(),objParte0,objParte01);
       
 
         JOptionPane.showMessageDialog(null, objTodo.toString());

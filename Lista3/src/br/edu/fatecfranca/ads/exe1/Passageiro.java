@@ -33,7 +33,7 @@ public class Passageiro {
 
     @Override
     public String toString() {
-        return "\n nome=" + nome + "\n cpf=" + cpf + '}';
+        return "\n nome=" + nome + "\n cpf=" + cpf ;
     }
     
     

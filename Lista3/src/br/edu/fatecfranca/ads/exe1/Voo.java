@@ -34,7 +34,7 @@ public class Voo {
 
     @Override
     public String toString() {
-        return "\n numero=" + numero + "\n destino=" + destino + '}';
+        return "\n numero=" + numero + "\n destino=" + destino;
     }
     
  
