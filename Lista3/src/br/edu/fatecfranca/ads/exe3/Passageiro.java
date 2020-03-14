@@ -32,7 +32,7 @@ public class Passageiro {
 
     @Override
     public String toString() {
-        return "Passageiro{" + "nome=" + nome + ", rg=" + rg + '}';
+        return "\n Passageiro: " + "nome=" + nome + ", rg=" + rg;
     }
     
 }

@@ -1,4 +1,4 @@
-package br.edu.fatecfranca.exe2;
+package br.edu.fatecfranca.ads.exe2;
 
 public class Disciplina {
 

@@ -44,7 +44,7 @@ public class Rodoviaria {
 
     @Override
     public String toString() {
-        return "Rodoviaria{" + "nome=" + nome + ", cidade=" + cidade + ", onibus=" + onibus + '}';
+        return "Rodoviaria: " + "nome=" + nome + ", cidade=" + cidade + ", onibus: " + onibus ;
     }
     
     public void addRodoviaria (Onibus onibus){
